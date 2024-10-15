@@ -30,11 +30,11 @@ void typecheck(char arr[28])
 {
     char *temp = arr;
     temp++;
-    if (*temp % 2 || *temp == 0)
+    if ((*temp == 0) || (*temp % 2) == 0)
     {
         printf("Header is for unicast.\n");
     }
-    else
+    if ((*temp % 2) != 0)
     {
         printf("Header is for multicast.\n");
     }
