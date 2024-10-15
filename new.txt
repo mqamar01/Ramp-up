@@ -1,0 +1,2 @@
+This is a test file to practice pulling files from remote repo to local repo. This is added in the
+remote repo manually from Gitlab GUI. Now I will attempt to pull it into my local repo. 
